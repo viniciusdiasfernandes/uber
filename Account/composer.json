@@ -1,4 +1,10 @@
 {
+    "name": "project/uber",
+    "type": "project",
+    "description": "Studying project with DDD and micro service",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^8.2",
         "ext-mysqli": "*",
@@ -26,7 +32,5 @@
         "psr-4": {
             "Account\\Tests\\": "Tests"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
