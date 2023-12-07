@@ -1,0 +1,22 @@
+{
+    "require": {
+        "php": "^8.2",
+        "ext-mysqli": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6.13",
+        "symfony/var-dumper": "7.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ride\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ride\\Tests\\": "Tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
