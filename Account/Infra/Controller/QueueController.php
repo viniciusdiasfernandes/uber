@@ -2,7 +2,7 @@
 
 namespace Account\Infra\Controller;
 
-use Account\Gateway\MailerGateway;
+use Account\Application\Gateway\MailerGateway;
 use Account\Infra\Queue\Queue;
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Account\Gateway;
+namespace Account\Application\Gateway;
 
 interface MailerGateway
 {

@@ -2,7 +2,7 @@
 
 namespace Account\Infra\Gateway;
 
-use Account\Gateway\MailerGateway;
+use Account\Application\Gateway\MailerGateway;
 
 class MailerGatewayAmazon implements MailerGateway
 {
